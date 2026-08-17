@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Xin chào, cảm ơn mọi người đã ghé thăm trang web giới thiệu bản thân của mình nhé. Mọi thông tin, liên hệ
+            mình có để đầy đủ phía dưới. Trân trọng</h1>
+    </header>
+
+    <main>
+        <section>
+            <hr>
+            <h2>Thông tin cá nhân</h2>
+            <img src="./img/PImg.jpg" alt="Personal_Img" style="width: 100px;">
+            <p><b>Họ và tên:</b> Nguyễn Quốc Bảo </p>
+            <p><b>Quê quán:</b> Hải Phòng</p>
+            <p><b>Nơi ở hiện tại:</b> Hà Nội</p>
+            <p><b>Trường học:</b> Học viên Công Nghệ Bưu Chính Viễn Thông</p>
+        </section>
+
+        <section>
+            <hr>
+            <h2>Sở thích & Kĩ năng</h2>
+            <h3><i>Sở thích cá nhân:</i></h3>
+            <ul>
+                <li>Âm nhạc</li>
+                <li>Lập trình và tìm hiểu công nghệ mới</li>
+                <li>Đọc sách công nghệ và khoa học viễn tưởng</li>
+                <li>Chơi game và thể thao ngoài trời</li>
+            </ul>
+            <h3><i>Kĩ năng lập trình:</i></h3>
+            <ol>
+                <li>HTML, CSS, JavaScript cơ bản đến nâng cao</li>
+                <li>Python và cơ sở dữ liệu SQL</li>
+                <li>Sử dụng Git và GitHub quản lý mã nguồn</li>
+            </ol>
+
+        </section>
+
+        <section>
+            <hr>
+            <h2>Góc Media</h2>
+            <!-- fb tự cung cấp đoạn iframe đầy đủ ở dưới ạ! -->
+            <iframe
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D917839564128778%26set%3Da.593986786514059&show_text=true&width=500"
+                width="500" height="563" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </section>
+
+        <section>
+            <hr>
+            <h2>Thông tin học tập & Thời khóa biểu</h2>
+            <table border="1" cellspacing="0">
+                <tr>
+                    <th>Thứ/Buổi</th>
+                    <th>Tên môn học</th>
+                    <th>Phòng học</th>
+                </tr>
+                <tr>
+                    <td>Thứ 2 (Sáng)</td>
+                    <td>Triết học Mác-Lênin</td>
+                    <td>501_HQV</td>
+                </tr>
+                <tr>
+                    <td>Thứ 2 (Chiều)</td>
+                    <td>Toán rời rạc 1</td>
+                    <td>HT2_HQV</td>
+                </tr>
+                <tr>
+                    <td>Thứ 5(Sáng)</td>
+                    <td>Lập trình hướng đối tượng</td>
+                    <td>501_HQV</td>
+                </tr>
+                <tr>
+                    <td>Thứ 5(Chiều)</td>
+                    <td>Lập trình Web</td>
+                    <td>HT2_HQV</td>
+                </tr>
+                <tr>
+                    <td>Thứ 6(Sáng)</td>
+                    <td>Kỹ năng đổi mới sáng tạo</td>
+                    <td>501_HQV</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <hr>
+            <h2>Biểu mẫu liên hệ</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" placeholder="Nhập họ và tên của bạn">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Nhập email của bạn">
+                </div>
+                <div>
+                    <label for="topic">Chủ đề liên hệ:</label>
+                    <select name="topic" id="topic">
+                        <option value="collab">Hợp tác dự án</option>
+                        <option value="question">Giải đáp thắc mắc</option>
+                        <option value="other">Khác...</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Nội dung:</label><br>
+                    <textarea name="message" id="message" rows="4" placeholder="Nhập nội dung tin nhắn..."></textarea>
+                </div>
+
+                <button type="submit">Gửi liên hệ</button>
+            </form>
+
+            <footer>
+                <hr>
+                <p>&copy; 2026 Nguyễn Quốc Bảo. <a href="https://github.com/baonq07ptit" target="_blank">GitHub Profile</a> <a href="https://www.facebook.com/nguyen.quoc.bao.664054?rdid=Y8sb97ikeSQWsyeF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BixLoJgK8%2F#" target="_blank">Facebook</a></p>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
